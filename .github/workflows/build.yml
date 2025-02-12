@@ -167,6 +167,6 @@ jobs:
         id: build-packages
         run: npm run build:ci
 
-      - name: Soft release
-        id: soft-release
-        run: npx pkg-pr-new publish './packages/*' --compact
+#      - name: Soft release
+#        id: soft-release
+#        run: npx pkg-pr-new publish './packages/*' --compact
